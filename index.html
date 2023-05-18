@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário jQuery</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de cadastro</h1>
+    </header>
+    <div class="container">
+        <form>
+            <input type="text" id="nome-completo" name="nome" placeholder="Nome completo">
+            <input type="email" placeholder="E-mail" id="email" name="email">
+            <input type="tel" placeholder="Telefone" id="telefone" name="telefone">
+            <input type="text" placeholder="CPF" id="cpf" name="cpf">
+            <input type="text" placeholder="Endereço" id="endereco" name="endereco">
+            <input type="text" placeholder="CEP" id="cep" name="cep">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./mask/jquery.mask.min.js"></script>
+    <script src="./mask/jquery.validate.min.js"></script>
+    <script src="./mask/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
